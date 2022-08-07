@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <button @click="count++" class="btn btn-primary">
+  <button @click="count++" class="btn btn-primary btn-lg">
     You clicked me {{ count }} times.
   </button>
 </template>
