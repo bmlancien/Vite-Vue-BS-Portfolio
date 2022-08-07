@@ -1,16 +1,16 @@
 <script>
-import Button from './components/Button.vue';
+import ButtonCta from "./components/Button-cta.vue";
 
 export default {
   components: {
-    Button
-  }
-}
+    ButtonCta,
+  },
+};
 </script>
 
 <template>
   <div id="app">
-    <Button />
+    <ButtonCta />
   </div>
 </template>
 
